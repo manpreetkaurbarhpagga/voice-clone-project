@@ -1,0 +1,6 @@
+streamlit
+TTS
+torch
+PyPDF2
+sqlite3
+soundfile

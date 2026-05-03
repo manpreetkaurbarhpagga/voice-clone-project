@@ -1,0 +1,509 @@
+/* Main Page Styles
+.main {
+    background-color: #0f172a;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+/* Home Page Cards */
+ .main-card {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    margin-bottom: 20px;
+    height: 280px;
+    transition: 0.3s;
+}
+
+.main-card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-5px);
+}
+
+.feature-title {
+    color: #38bdf8; 
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-desc {
+    color: #f8fafc !important; 
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.status-tag {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #22c55e;
+}
+
+/* Step Cards */
+ .step-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    border-top: 4px solid #38bdf8;
+    text-align: center;
+    height: 220px;
+}
+
+.step-num {
+    background: #38bdf8;
+    color: #0f172a;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.step-title {
+    color: #38bdf8;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-desc {
+    color: #cbd5e1 !important;
+    font-size: 14px;
+}
+
+/* Settings & Input Cards */
+.settings-card {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #1e293b;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+} 
+
+/* Metrics Boxes */
+ .metric-words {
+    background: rgba(56, 189, 248, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #38bdf8;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.metric-chars {
+    background: rgba(168, 85, 247, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #a855f7;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #a855f7;
+    font-weight: bold;
+} 
+
+/* Global Button Style (Black & White) */
+div.stButton > button {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #334155 !important;
+    border-radius: 10px !important;
+    padding: 12px 24px !important;
+    font-weight: bold !important;
+    transition: 0.3s !important;
+}
+
+div.stButton > button:hover {
+    background-color: #222 !important;
+    border-color: #38bdf8 !important;
+    transform: scale(1.02);
+}
+
+/* STT Result Card */
+.result-card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #2dd4bf;
+    color: #e6edf3;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+} 
+
+/* PDF Preview */
+.pdf-container {
+    border: 2px solid #334155;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+ .footer-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #334155;
+    color: #64748b;
+}
+
+.footer-links a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+/* Main Page Background */
+ .main {
+    background-color: #0f172a;
+} 
+
+/* 1. Feature Cards (Home Page) */
+.main-card {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    margin-bottom: 20px;
+    height: 280px;
+    transition: 0.3s;
+}
+
+.main-card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-5px);
+}
+
+.feature-title {
+    color: #38bdf8; 
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature-desc {
+    color: #f8fafc !important; 
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+} 
+
+/* 2. Status Tags */
+ .status-tag {
+    background-color: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #22c55e;
+} 
+
+/* 3. Step Cards (Process Section) */
+ .step-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    border-top: 4px solid #38bdf8;
+    text-align: center;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.step-num {
+    background: #38bdf8;
+    color: #0f172a;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.step-title {
+    color: #38bdf8;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-desc {
+    color: #cbd5e1 !important;
+    font-size: 14px;
+} 
+
+/* 4. Global Button (Black & White Theme) */
+ div.stButton > button {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 10px !important;
+    padding: 12px 24px !important;
+    font-weight: bold !important;
+    transition: 0.3s !important;
+    width: 100%;
+}
+
+div.stButton > button:hover {
+    background-color: #222 !important;
+    border-color: #38bdf8 !important;
+    transform: scale(1.01);
+} 
+
+/* 5. Inputs & Settings Cards */
+.settings-card {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #1e293b;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+} 
+
+/* 6. Metrics (Dashboard Style) */
+ .metric-words {
+    background: rgba(56, 189, 248, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #38bdf8;
+    text-align: center;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.metric-chars {
+    background: rgba(168, 85, 247, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #a855f7;
+    text-align: center;
+    color: #a855f7;
+    font-weight: bold;
+}
+
+/* 7. PDF & Results */
+.pdf-container {
+    border: 2px solid #334155;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #1e293b;
+} 
+
+.result-card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #2dd4bf;
+    color: #e6edf3;
+    margin-top: 20px;
+} 
+/* Dashboard Specific Styles */
+ .dash-title {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#6366f1, #a855f7);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+} 
+
+.stat-card {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.stat-card:hover {
+    border-color: #6366f1;
+    transform: translateY(-5px);
+}
+
+.stat-val {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f8fafc;
+} 
+
+.stat-label {
+    color: #94a3b8;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} 
+ 
+
+
+
+/* STT Title Styling */
+.stt-title {
+    font-size: 32px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#2dd4bf, #22d3ee);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px; 
+} 
+
+/* Transcription Result Box */
+.result-card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #2dd4bf;
+    color: #e6edf3;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* STT Settings Card */
+.stt-settings-card {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #1e293b;
+} 
+
+/* STT Button Styling */
+ div.stButton > button.stt-btn {
+    background: black !important;
+    color: white !important;
+    border: 1px solid #2dd4bf !important;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+div.stButton > button.stt-btn:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(20, 184, 166, 0.4);
+    border: 1px solid white !important;
+}
+
+
+
+/* Dashboard Specific Styles */
+.dash-title {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#6366f1, #a855f7);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+.stat-card {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #334155;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.stat-card:hover {
+    border-color: #6366f1;
+    transform: translateY(-5px);
+}
+
+.stat-val {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f8fafc;
+}
+
+.stat-label {
+    color: #94a3b8;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} 
+
+/* History Specific Styles */
+.history-card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid #00d4ff;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: 0.2s ease;
+}
+
+.history-card:hover {
+    background: #1c2128;
+}
+
+.user-tag { color: #00d4ff; font-weight: bold; }
+.feature-tag {
+    background: #333; color: #fff;
+    padding: 2px 8px; border-radius: 5px;
+    font-size: 11px;
+} 
+/* Red styling for Clear button */
+div.stButton > button:contains("Clear All History") {
+    background-color: black !important;
+    color: white !important;
+    border: none !important;
+}
+
+div.stButton > button:contains("Clear All History"):hover {
+    background-color: #dc2626 !important;
+    transform: scale(1.05); 
+}
+
+/* Voice Cloning Button Styling */
+
+div.stButton > button[key="clone_btn"] {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #a855f7 !important;
+} 
+
+div.stButton > button[key="stt_btn"] {
+    background-color: #2dd4bf !important;
+    color: black !important;
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
