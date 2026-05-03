@@ -1,6 +1,11 @@
 streamlit
-TTS
-torch
+pandas
+numpy
+SpeechRecognition
+edge-tts
+googletrans==4.0.0-rc1
 PyPDF2
-sqlite3
+pydub
+TTS
+ffmpeg-python
 soundfile
