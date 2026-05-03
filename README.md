@@ -42,4 +42,3 @@ streamlit run app.py
 
 
 
-Manpreet Kaur
